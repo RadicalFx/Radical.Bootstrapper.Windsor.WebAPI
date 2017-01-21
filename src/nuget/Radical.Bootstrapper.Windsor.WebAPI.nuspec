@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/10/nuspec.xsd">
+  <metadata>
+    <id>Radical.Bootstrapper.Windsor.WebAPI</id>
+    <title>Radical.Bootstrapper.Windsor.WebAPI</title>
+    <version>$version$</version>
+    <authors>Mauro Servienti</authors>
+    <owners>radical,mauroservienti</owners>
+    <licenseUrl>https://github.com/RadicalFx/Radical.Bootstrapper.Windsor.WebAPI/blob/master/license</licenseUrl>
+    <projectUrl>https://github.com/RadicalFx/Radical.Bootstrapper.Windsor.WebAPI</projectUrl>
+    <iconUrl>http://www.radicalframework.com/img/radical-ico.png</iconUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Radical Bootstrapper for ASP.Net WebAPI</description>
+    <summary />
+    <language>en-US</language>
+    <tags>Radical</tags>
+    <dependencies>
+      <dependency id="Radical.Bootstrapper.Windsor" version="[2.0,3.0)" />
+      <dependency id="Microsoft.AspNet.WebApi.Client" version="[5.2,6.0)" />
+      <dependency id="Microsoft.AspNet.WebApi.Core" version="5.2.3" />
+      <dependency id="Microsoft.Web.Infrastructure" version="[1.0,2.0)" />
+      <dependency id="Newtonsoft.Json" version="9.0" />
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="..\build\$configuration$\Radical.Bootstrapper.Windsor.WebAPI\lib\" target="lib\" />
+  </files>
+</package>
